@@ -1,13 +1,14 @@
 ActsAsDaysDistinguishr
 ======================
 
-Introduction goes here.
+Often used time stuff. Nothing special. Not worth to clone.
 
+<code>
+    one_date.day_difference(other_date)
+</code>
 
-Example
-=======
+<code>
+    Time.now.to_ymd
+</code>
 
-Example goes here.
-
-
-Copyright (c) 2011 [name of plugin creator], released under the MIT license
+Copyright (c) 2011 Daniel Schmidt, released under the MIT license

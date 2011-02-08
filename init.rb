@@ -5,4 +5,4 @@ require File.join(File.dirname(__FILE__), "lib", "german")
 
 
 Date.send(:include, ActsAsDaysDistinguishr)
-Date.send(:include, ActsAsDaysDistinguishr::German)
+Time.send(:include, ActsAsDaysDistinguishr::German)

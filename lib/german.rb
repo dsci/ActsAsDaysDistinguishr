@@ -8,8 +8,8 @@ module ActsAsDaysDistinguishr
     
     module InstanceMethods
       
-      def to_ymd(date
-        return self.class.strptime(date, "%d.%m.%Y")
+      def to_ymd
+        self.strftime("%d.%m.%Y")
       end
       
     end

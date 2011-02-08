@@ -26,8 +26,8 @@ describe Date do
     it "should format an english date to a german output" do
       
       test_date = Chronic.parse("may 25th")
-      puts test_date
-    end
+      test_date.to_ymd.include?("25.05.").should == true 
+     end
     
   end
 
